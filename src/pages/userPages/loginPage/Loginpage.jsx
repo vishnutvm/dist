@@ -215,7 +215,7 @@ function Loginpage() {
           const formDataJson = JSON.stringify(values);
           console.log(formDataJson);
           const loginUserResponse = await fetch(
-            'http://localhost:3001/user/login',
+            '/user/login',
             {
               method: 'POST',
               // eslint-disable-next-line max-len
